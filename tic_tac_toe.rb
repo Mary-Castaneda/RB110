@@ -17,7 +17,6 @@ end
 
 # rubocop:disable Metrics/AbcSize
 def display_board(brd)
-  # system 'clear'
   puts ''
   puts '     |     |'
   puts "  #{brd[1]}  |  #{brd[2]}  |  #{brd[3]}"
