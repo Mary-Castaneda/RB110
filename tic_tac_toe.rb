@@ -1,5 +1,3 @@
-require 'pry'
-
 INITIAL_MARKER = ' '
 PLAYER_MARKER = 'X'
 COMPUTER_MARKER = 'O'
@@ -137,7 +135,10 @@ def print_winner_and_scores(winner, player, computer)
   end
   prompt "Your score is #{player}. Computer's score is #{computer}."
 end
+
+system 'clear'
 prompt 'Hello! Welcome to Tic Tac Toe.'
+
 loop do
   player_score = 0
   computer_score = 0
